@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Choices we make</title>
+</head>
+<body>
+<h1>Determining you destiny by the choices you make now ...</h1>
+<br>
+<br>
+<%= start_form_tag ({:action => "choice"}, {:method => "post"}) %>
+Please enter your name:
+<br>
+<%= text_field_tag ("text1", "Default", {"size" => 31}) %>
+<br>
+<br>
+<%= check_box_tag("check1", "Yes", false) %>Liberal
+<br>
+<br>
+<input type="submit"/>
+<%= end_form_tag %>
+</body>
+</html>

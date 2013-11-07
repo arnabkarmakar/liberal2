@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Results from the choices you make . . .</title>
+</head>
+
+<body>
+<br>
+<br>
+<br>
+<br>
+<% if @data3 == "Liberal"  %>
+Great choice <%= @data1 %>. I'm glad you elected to be <%= @data3 %>.   You'll be a productive member of society
+indeed you will look like this:<br>
+<br>
+<center><img src = "http://www.bloomberg.com/image/iS3RY.V67fZA.jpg" alt = "liberal"></center>
+<br>
+<br>
+<% else %>
+You disappoint me <%= @data1 %>.  You're going to grow to be fatter than Rush Limbaugh.  Keep your your own selfish agenda any futher, and you'll look like this:<br>
+<br>
+<center><img src = "http://blogs-images.forbes.com/nathanvardi/files/2012/02/0ckqgurh2v3AZ_3483.jpg" alt = "a big fat putz"></center>
+<br>
+<br>
+<% end %>
+<br>
+<br>
+</body>
+</html>
+ 
